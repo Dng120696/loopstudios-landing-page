@@ -89,6 +89,7 @@ nav .logo img {
   position: relative;
   width: calc(10% - 1rem);
   cursor: pointer;
+  z-index: 3;
 }
 .menu img,
 .menu-links ul.flex {
@@ -107,6 +108,7 @@ nav .logo img {
   top: 0;
   right: -100%;
   transition: right 1s;
+  z-index: 2;
 }
 .show {
   right: 0;
@@ -144,7 +146,7 @@ h3{
   width: clamp(30rem, 100%, 65rem);
   border: 2px solid var(--White);
   position: relative;
-  z-index: 3;
+  z-index: 0;
 }
 /* SECTION 1 */
 .sec-1 {
